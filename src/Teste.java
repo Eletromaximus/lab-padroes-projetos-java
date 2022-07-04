@@ -1,5 +1,6 @@
 
 
+import one.digitainnovation.gof.facade.Facade;
 import one.digitainnovation.gof.singleton.SingletonEager;
 import one.digitainnovation.gof.singleton.SingletonLazy;
 import one.digitainnovation.gof.singleton.SingletonLazyHolder;
@@ -42,5 +43,10 @@ public class Teste {
 
     robo.mover();
     robo.mover();
+
+    // Facade
+
+    Facade facade = new Facade();
+    facade.migrarCliente("Veniltom", "14801788");
   }
 }
