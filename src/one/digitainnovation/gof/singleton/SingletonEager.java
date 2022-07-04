@@ -1,4 +1,4 @@
-package one.digitainnovation.gof;
+package one.digitainnovation.gof.singleton;
 
 public class SingletonEager {
   private static SingletonEager instancia = new SingletonEager();

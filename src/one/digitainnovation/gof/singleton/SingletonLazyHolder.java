@@ -1,4 +1,4 @@
-package one.digitainnovation.gof;
+package one.digitainnovation.gof.singleton;
 
 public class SingletonLazyHolder {
   private static class InstanceHolder {

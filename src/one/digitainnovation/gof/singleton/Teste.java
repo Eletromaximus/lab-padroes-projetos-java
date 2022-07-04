@@ -1,4 +1,4 @@
-package one.digitainnovation.gof;
+package one.digitainnovation.gof.singleton;
 
 public class Teste {
   public static void main(String[] args) {
